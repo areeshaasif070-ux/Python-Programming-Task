@@ -1,0 +1,317 @@
+# Intermediate-Level Tasks
+
+## Task 6: Grocery Shopping Bill
+
+### Task Description
+
+Customer ke purchased products ka complete grocery bill calculate karein.
+
+### Requirements
+
+1. User se total products input lein.
+2. Har product ka name, price aur quantity input lein.
+3. Har product ka subtotal calculate karein.
+
+```
+Subtotal = Price × Quantity
+```
+
+1. Tamam subtotals ko add karke total bill calculate karein.
+2. Rs. 5,000 ya above ke bill par 10% discount dein.
+3. Final bill display karein.
+
+---
+
+## Task 7: Employee Weekly Salary
+
+### Task Description
+
+Employee ki weekly working hours ke according salary calculate karein.
+
+### Rules
+
+- Normal working limit: 40 hours
+- First 40 hours: Normal hourly rate
+- Extra hours: 1.5 times hourly rate
+
+### Requirements
+
+1. Employee name input lein.
+2. Total working hours input lein.
+3. Hourly rate input lein.
+4. Normal salary calculate karein.
+5. Overtime salary calculate karein.
+6. Total weekly salary display karein.
+
+---
+
+## Task 8: Bus Seat Booking
+
+### Task Description
+
+Aik bus mein 10 seats hain. User seat number enter karke available seat book kar sakta hai.
+
+### Requirements
+
+1. Available seats ki list banayein:
+
+```
+available_seats= [1,2,3,4,5,6,7,8,9,10]
+```
+
+1. User se seat number input lein.
+2. Check karein ke seat available hai ya nahi.
+3. Available seat ko list se remove karein.
+4. Already-booked seat par message display karein.
+5. Remaining available seats show karein.
+
+---
+
+## Task 9: Message Analyzer
+
+### Task Description
+
+User se ek message input lein aur message ke baare mein different information display karein.
+
+### Requirements
+
+Program calculate kare:
+
+1. Total characters
+2. Total words
+3. Total vowels
+4. Total spaces
+5. Message uppercase format
+6. Check karein ke word `"Python"` message mein exists karta hai ya nahi.
+
+### Example
+
+```
+Enter message: I am learning Python
+
+Characters: 20
+Words: 4
+Vowels: 6
+Python Found: Yes
+```
+
+---
+
+## Task 10: Contact Book
+
+### Task Description
+
+Dictionary use karke simple contact book banayein.
+
+### Requirements
+
+User ko menu show karein:
+
+```
+1. Add Contact
+2. Search Contact
+3. Display All Contacts
+4. Exit
+```
+
+Program should:
+
+1. Contact name aur phone number store kare.
+2. Name se contact search kare.
+3. Duplicate contact name check kare.
+4. Tamam contacts display kare.
+5. Exit select hone tak program run karta rahe.
+
+### Suggested Dictionary
+
+```
+contacts= {"Ali":"03001234567","Sara":"03111234567"
+}
+```
+
+# Advanced-Level Tasks
+
+## Task 11: Personal Expense Tracker
+
+### Task Description
+
+Aisa program banayein jo user ke daily expenses record kare aur spending summary generate kare.
+
+### Expense Information
+
+Har expense ke liye:
+
+- Expense name
+- Category
+- Amount
+
+### Categories
+
+```
+Food
+Transport
+Shopping
+Bills
+Other
+```
+
+### Requirements
+
+1. User se total expenses input lein.
+2. Har expense ko dictionary mein store karein.
+3. Tamam dictionaries ko list mein save karein.
+4. Total spending calculate karein.
+5. Har category ki spending calculate karein.
+6. Highest expense find karein.
+7. User ka budget input lein.
+8. Budget exceed hone par warning display karein.
+9. Function use karke final report display karein.
+
+---
+
+## Task 12: Store Inventory Manager
+
+### Task Description
+
+Ek small shop ke products aur stock ko manage karne wala program banayein.
+
+### Product Information
+
+- Product name
+- Price
+- Available quantity
+
+### Menu
+
+```
+1. Add Product
+2. Sell Product
+3. Restock Product
+4. Search Product
+5. Display Inventory
+6. Exit
+```
+
+### Requirements
+
+1. Products ko dictionary mein store karein.
+2. New product add karne ka function banayein.
+3. Product sell hone par stock reduce karein.
+4. Insufficient stock par warning show karein.
+5. Restocking par quantity increase karein.
+6. Product name se search karein.
+7. Low-stock products display karein.
+8. Low stock ki condition quantity below `5` hogi.
+9. Total inventory value calculate karein.
+
+### Formula
+
+```
+Product Value = Price × Quantity
+```
+
+---
+
+## Task 13: Library Book Management System
+
+### Task Description
+
+Ek small library ke books aur borrowing records manage karne wala program banayein.
+
+### Book Information
+
+- Book ID
+- Book title
+- Author
+- Availability status
+
+### Menu
+
+```
+1. Add Book
+2. Display Books
+3. Search Book
+4. Borrow Book
+5. Return Book
+6. Exit
+```
+
+### Requirements
+
+1. Har book ko dictionary mein store karein.
+2. Tamam books ko list mein save karein.
+3. Book ID unique honi chahiye.
+4. Title se book search karein.
+5. Sirf available book borrow ho sake.
+6. Borrowed book ka status update karein.
+7. Return karne par book dobara available karein.
+8. Har menu operation ke liye separate function banayein.
+
+---
+
+## Task 14: Restaurant Ordering System
+
+### Task Description
+
+Customer restaurant menu se multiple food items order kar sake aur program complete bill generate kare.
+
+### Example Menu
+
+```
+menu= {"Burger":500,"Pizza":1200,"Pasta":800,"Drink":200
+}
+```
+
+### Requirements
+
+1. Restaurant menu display karein.
+2. Customer se item name aur quantity input lein.
+3. Check karein ke item menu mein available hai.
+4. Multiple items order karne ki facility dein.
+5. Har item ka subtotal calculate karein.
+6. Order ko list of dictionaries mein store karein.
+7. Total bill calculate karein.
+8. Total bill par 13% tax calculate karein.
+9. Rs. 3,000 ya above par 10% discount dein.
+10. Function use karke formatted receipt display karein.
+
+---
+
+## Task 15: Clinic Appointment Manager
+
+### Task Description
+
+Aisa program banayein jo clinic ke patients aur appointments manage kare.
+
+### Patient Information
+
+- Patient ID
+- Patient name
+- Age
+- Disease/problem
+- Appointment time
+- Emergency status
+
+### Requirements
+
+1. Patient information input lein.
+2. Har patient ko dictionary mein store karein.
+3. Tamam patients ko list mein save karein.
+4. Patient ID duplicate nahi honi chahiye.
+5. Patient ID se record search karein.
+6. Normal aur emergency patients ko identify karein.
+7. Emergency patients ko list mein pehle display karein.
+8. Appointment cancel karne ki facility dein.
+9. Total normal aur emergency patients count karein.
+10. Different operations ke liye separate functions banayein.
+
+### Suggested Menu
+
+```
+1. Add Appointment
+2. Search Patient
+3. Display Appointments
+4. Cancel Appointment
+5. Display Clinic Summary
+6. Exit
+```
